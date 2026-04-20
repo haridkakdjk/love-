@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const checkPassword = () => {
         const password = passwordInput.value.toLowerCase().trim();
-        if (password === 'i love you') {
+        if (password === 'i love you hari') {
             gsap.to(passwordScreen, {
                 duration: 1,
                 y: -1000,
